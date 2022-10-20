@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <script src="a.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <section style="background-color: #eee;">
+            <div class="container py-5">
+              <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-10 col-xl-8">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex flex-start align-items-center">
+                         
+                      </div>
+          
+  
+                    </div> 
+                    <div class="card-footer py-3 border-0" style="background-color: #f8f9fa;">
+                      <div class="d-flex flex-start w-100">
+                        <img class="rounded-circle shadow-1-strong mr-3"
+                          src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp" alt="avatar" width="40"
+                          height="40" />
+                        <div class="form-outline w-100">
+                          <textarea class="form-control" id="textAreaExample" rows="4"
+                            style="background: #fff;"></textarea>
+                          <!-- <label class="form-label" for="textAreaExample">Message</label> -->
+                        </div>
+                      </div>
+                      <div class="float-right mt-2 pt-1">
+                        <button type="button" class="btn btn-primary btn-sm">Post comment</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Cancel</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-10 col-xl-8">
+                    <div class="card">
+                      <div class="card-body p-4">
+                        <h4 class="text-center mb-4 pb-2">Comments</h4>
+            
+                        <div class="row">
+                          <div class="col">
+                            <div class="d-flex flex-start">
+                              <img class="rounded-circle shadow-1-strong mr-3"
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" width="65"
+                                height="65" />
+                              <div class="flex-grow-1 flex-shrink-1">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <p class="mb-1">
+                                      Maria Smantha <span class="small">- 2 hours ago</span>
+                                    </p>
+                                    <a href="#!"><i class="fas fa-reply fa-xs"></i><span class="small"> reply</span></a>
+                                  </div>
+                                  <p class="small mb-0">
+                                    qua cap 1
+                                  </p>
+                                </div>
+            
+                                <div class="d-flex flex-start mt-4">
+                                  <a class="mr-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(11).webp" alt="avatar"
+                                      width="65" height="65" />
+                                  </a>
+                                  <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-1">
+                                          Simona Disa <span class="small">- 3 hours ago</span>
+                                        </p>
+                                      </div>
+                                      <p class="small mb-0">
+                                        ok
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+            
+                                <div class="d-flex flex-start mt-4">
+                                  <a class="mr-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                                      width="65" height="65" />
+                                  </a>
+                                  <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-1">
+                                          John Smith <span class="small">- 4 hours ago</span>
+                                        </p>
+                                      </div>
+                                      <p class="small mb-0">
+                                        ok
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+            
+                            <div class="d-flex flex-start mt-4">
+                              <img class="rounded-circle shadow-1-strong mr-3"
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(12).webp" alt="avatar" width="65"
+                                height="65" />
+                              <div class="flex-grow-1 flex-shrink-1">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <p class="mb-1">
+                                      Natalie Smith <span class="small">- 2 hours ago</span>
+                                    </p>
+                                    <a href="#!"><i class="fas fa-reply fa-xs"></i><span class="small"> reply</span></a>
+                                  </div>
+                                  <p class="small mb-0">
+                                    qua cap 1
+                                  </p>
+                                </div>
+            
+                                <div class="d-flex flex-start mt-4">
+                                  <a class="mr-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp" alt="avatar"
+                                      width="65" height="65" />
+                                  </a>
+                                  <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-1">
+                                          Lisa Cudrow <span class="small">- 4 hours ago</span>
+                                        </p>
+                                      </div>
+                                      <p class="small mb-0">
+                                        ok
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+            
+                                <div class="d-flex flex-start mt-4">
+                                  <a class="mr-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(29).webp" alt="avatar"
+                                      width="65" height="65" />
+                                  </a>
+                                  <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-1">
+                                          Maggie McLoan <span class="small">- 5 hours ago</span>
+                                        </p>
+                                      </div>
+                                      <p class="small mb-0">
+                                        ok
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+            
+                                <div class="d-flex flex-start mt-4">
+                                  <a class="mr-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                                      width="65" height="65" />
+                                  </a>
+                                  <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-1">
+                                          John Smith <span class="small">- 6 hours ago</span>
+                                        </p>
+                                      </div>
+                                      <p class="small mb-0">
+                                        ok
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()" class="btn-open-comment"><button type="button" class="btn btn-primary btn-sm">Post comment</button></span>
+    
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main">
+        
+      </div>
+</body>
+</html>
